@@ -1,7 +1,7 @@
-# DocAction - Safe Text & PDF Extraction Tool
+# 📄 Briefly | Intelligent Document Summarizer
 
 ## Description
-DocAction extracts **amounts, dates, and actions** from text or PDFs with **full traceability**.  
+Briefly extracts **amounts, dates, and actions** from text or PDFs with **full traceability**.  
 It is built for **safety and precision** — no swaps, no guessing.
 
 ## Features
