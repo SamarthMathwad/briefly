@@ -1,0 +1,42 @@
+{
+    "filename": "sample.pdf",
+    "status": "success",
+    "entity_count": 5,
+    "extracted_data": [
+        {
+            "value": "$8,500",
+            "start": 47,
+            "end": 53,
+            "sentence_index": 0,
+            "method": "regex"
+        },
+        {
+            "value": "15 Sep",
+            "start": 66,
+            "end": 72,
+            "sentence_index": 0,
+            "method": "regex"
+        },
+        {
+            "value": "transfer",
+            "start": 38,
+            "end": 46,
+            "sentence_index": 0,
+            "method": "NER"
+        },
+        {
+            "value": "$1,200",
+            "start": 83,
+            "end": 89,
+            "sentence_index": 1,
+            "method": "regex"
+        },
+        {
+            "value": "pay",
+            "start": 79,
+            "end": 82,
+            "sentence_index": 1,
+            "method": "NER"
+        }
+    ]
+}
