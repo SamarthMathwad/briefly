@@ -164,3 +164,19 @@ if st.button("✨ Analyze Document", type="primary"):
         st.markdown(f"<div class='summary-box'>{summary}</div>", unsafe_allow_html=True)
         
         st.download_button("📥 Download Brief", summary, "brief.txt")
+
+# --- PROFESSIONAL FOOTER ---
+st.sidebar.markdown("---")
+
+# 1. Your Name (Bold and Professional)
+st.sidebar.markdown("### Developed by Samarth Mathwad")
+
+# 2. The "Elevator Pitch" (Subtle text)
+st.sidebar.caption("Automated Legal & Technical Document Analysis.")
+
+# 3. The Links (Clean text, no emojis)
+# IMPORTANT: Replace the 'YOUR_URL_HERE' part below with your actual LinkedIn profile link
+st.sidebar.markdown("[LinkedIn Profile](https://www.linkedin.com/in/samarth-mathwad-4589b9315/)  •  [GitHub Repository](https://github.com/SamarthMathwad)")
+
+# 4. The Copyright (Adds authority)
+st.sidebar.caption("© 2026 Briefly AI. All Rights Reserved.")
